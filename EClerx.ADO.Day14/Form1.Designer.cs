@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAddNew = new System.Windows.Forms.Button();
             this.BtnUpdate = new System.Windows.Forms.Button();
+            this.BtnDelete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblEmpCode
@@ -168,11 +169,23 @@
             this.BtnUpdate.UseVisualStyleBackColor = true;
             this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
+            // BtnDelete
+            // 
+            this.BtnDelete.AutoSize = true;
+            this.BtnDelete.Location = new System.Drawing.Point(495, 392);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(75, 30);
+            this.BtnDelete.TabIndex = 14;
+            this.BtnDelete.Text = "Delete";
+            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
             // FrmConnectedEx
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(680, 447);
+            this.Controls.Add(this.BtnDelete);
             this.Controls.Add(this.BtnUpdate);
             this.Controls.Add(this.BtnAddNew);
             this.Controls.Add(this.TxtSocialSecurityNo);
@@ -213,6 +226,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAddNew;
         private System.Windows.Forms.Button BtnUpdate;
+        private System.Windows.Forms.Button BtnDelete;
     }
 }
 

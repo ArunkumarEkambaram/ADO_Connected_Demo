@@ -152,5 +152,10 @@ namespace EClerx.ADO.Day14
 
             MessageBox.Show("Record updated successfully");
         }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Delete Button");
+        }
     }
 }
